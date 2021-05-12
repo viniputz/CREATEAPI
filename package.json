@@ -4,6 +4,7 @@
   "description": "TESTE APP",
   "main": "index.js",
   "scripts": {
+    "start": "json-server --watch db.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -11,13 +12,13 @@
     "url": "git+https://github.com/viniputz/CREATEAPI.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "viniputz",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/viniputz/CREATEAPI/issues"
   },
   "homepage": "https://github.com/viniputz/CREATEAPI#readme",
   "dependencies": {
-    "json-server": "^0.16.3"
+    "express": "^4.17.1"
   }
 }
