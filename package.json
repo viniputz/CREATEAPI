@@ -4,8 +4,9 @@
   "description": "TESTE APP",
   "main": "index.js",
   "scripts": {
-    "start": "json-server --watch db.json",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,6 @@
   "homepage": "https://github.com/viniputz/CREATEAPI#readme",
   "dependencies": {
     "express": "^4.17.1"
-  }
+  },
+  "devDependencies": {}
 }
